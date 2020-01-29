@@ -23,7 +23,7 @@ body {
 }
 
 .border {
-    background: black;
+    background:none;
 }
 .map {
     background: white;
@@ -51,4 +51,25 @@ body {
 .opis {
     padding: 0 10px;
     text-align: justify;
+}
+.przycisk1{
+    float: left;
+
+}
+
+.przycisk2{
+    float: left;
+
+}
+.przycisk3{
+    float: left;
+
+}
+.przycisk4{
+    float: left;
+
+}
+.containerLeft1 {
+    display: grid;
+    grid-template-columns: auto 45% 45%;
 }
